@@ -1,0 +1,9 @@
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\bin\Debug\netcoreapp1.0\LetsGoBootstrap.deps.json
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\bin\Debug\netcoreapp1.0\LetsGoBootstrap.runtimeconfig.json
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\bin\Debug\netcoreapp1.0\LetsGoBootstrap.runtimeconfig.dev.json
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\bin\Debug\netcoreapp1.0\LetsGoBootstrap.dll
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\obj\Debug\netcoreapp1.0\LetsGoBootstrap.csprojResolveAssemblyReference.cache
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\obj\Debug\netcoreapp1.0\LetsGoBootstrap.AssemblyInfo.cs
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\bin\Debug\netcoreapp1.0\LetsGoBootstrap.pdb
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\obj\Debug\netcoreapp1.0\LetsGoBootstrap.dll
+C:\Users\kolapo.abolarinwa\Documents\Visual Studio 2017\Projects\LetsGoBootstrap\LetsGoBootstrap\LetsGoBootstrap\obj\Debug\netcoreapp1.0\LetsGoBootstrap.pdb

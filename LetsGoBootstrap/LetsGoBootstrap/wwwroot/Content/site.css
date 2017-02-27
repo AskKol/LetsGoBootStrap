@@ -1,0 +1,6 @@
+﻿#logo-menuItems{
+    padding-left:5rem;
+}
+.nav>li>a{
+    display:inline-block;
+}

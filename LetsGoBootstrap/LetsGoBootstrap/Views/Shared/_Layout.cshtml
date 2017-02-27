@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LetsGoBootstrap</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/United-bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/site.css" />
+</head>
+<body>
+    <div id="page">
+        <header class="container-fluid">
+            <div id="menu" class="navbar navbar-default ">
+                <div id="logo-menuItems" class="col-md-offset-2">
+                    <div id="logo"class="navbar-header">
+                        <a href="." class="navbar-brand">Site Name</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Home</a>
+                            <a href="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Category</a>
+                            <a href="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Others</a>
+                            <a href="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mainSearch" >
+                    <form action="/" method="post" class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text"  class="form-control" placeholder="search" />
+                            <button id="btnMainSearch" asp-controller="Home" asp-action="Index" class="btn btn-primary">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <section id="mainBody" class="container">
+            <section id="sideBar" class="col-md-2 col-sm-3">
+
+                A side bar
+
+            </section>
+            <section id="mainDisplay" class="col-md-10 col-sm-9">
+                <div class="row visible-md visible-lg" id="bannerRow">
+                    <img src="~/Images/mainBanner.jpg" alt="Site name" class="col-md-12" />
+                </div>
+                @RenderBody()
+
+            </section>
+        </section>
+
+        <hr id="bottomLine" />
+        <footer id="footer" class="container">
+            I am a footer
+        </footer>
+
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
