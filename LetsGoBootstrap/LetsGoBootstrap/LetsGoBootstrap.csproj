@@ -6,12 +6,9 @@
 
   <ItemGroup>
     <Content Include="wwwroot\Content\site.css" />
+    <Content Include="wwwroot\Images\Logo.png" />
     <Content Include="wwwroot\Images\mainBanner.jpg" />
     <Content Include="wwwroot\lib\bootstrap\dist\css\United-bootstrap.min.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -27,6 +24,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Tools" Version="1.1.0-preview4-final" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

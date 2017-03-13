@@ -7,16 +7,18 @@ using System.Threading.Tasks;
 
 namespace LetsGoBootstrap.Controllers
 {
-    public class HomeController:Controller
+    public class ProductController:Controller
     {
-        /// <summary>
-        /// The home/ landing page of the website
-        /// </summary>
-        /// <returns>A view</returns>
+        public ProductController()
+        {
+
+        }
+
         public ViewResult Index()
         {
-            ViewBag.HomeTabClass = "active";
+            ViewBag.ProductTabClass = "active";
             return View();
+
         }
     }
 }

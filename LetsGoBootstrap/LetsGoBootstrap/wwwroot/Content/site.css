@@ -1,6 +1,93 @@
-﻿#logo-menuItems{
-    padding-left:5rem;
+﻿/*#logo-menuItems {
+    padding-left: 5rem;
+}*/
+
+/*.nav > li > a {
+    display: inline-block;
+}*/
+
+/* The body */
+body{
+    background-color:#fcfcfc;
 }
-.nav>li>a{
-    display:inline-block;
+#divBody {
+    min-height: 40rem;
+}
+
+#divBody {
+    margin-top: 6rem;
+}
+
+#divBodyInner{
+background-color:#ffffff;
+min-height:400px;
+}
+
+@media(max-width:183px) {
+    #divBody {
+        margin-top: 11rem;
+    }
+}
+
+/*The search form */
+#frmSearch {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#btnSearch {
+    border-color: transparent;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+}
+
+    #btnSearch > span {
+        color: black;
+    }
+
+        #btnSearch > span:hover {
+            color: #d34615;
+        }
+
+#txtSearch {
+    margin-left: 1rem;
+    min-width: 400px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+
+@media(max-width:860px) {
+    #txtSearch {
+        margin-left: 0;
+        min-width: 200px;
+    }
+}
+
+@media(max-width:768px) {
+    #txtSearch {
+        margin-left: 0;
+        min-width: 200px;
+    }
+
+    #frmSearch {
+        margin-left: -2rem;
+    }
+}
+
+/*The main menu*/
+
+#divMenu > div.navbar-header > a {
+    /*padding-top:.4rem;
+padding-right:.3rem;
+padding-bottom:.1rem;
+padding-left:.2rem;*/
+    padding: .4rem .3rem .1rem .2rem;
+}
+
+#divCollapsibleMenu > ul > li {
+    border-left: solid;
+    border-left-width: thin;
+    border-left-color: crimson;
 }
