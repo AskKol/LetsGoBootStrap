@@ -6,6 +6,10 @@
 
   <ItemGroup>
     <Content Include="wwwroot\Content\site.css" />
+    <Content Include="wwwroot\Images\bannerI.jpg" />
+    <Content Include="wwwroot\Images\banderII.jpg" />
+    <Content Include="wwwroot\Images\bannerII.jpg" />
+    <Content Include="wwwroot\Images\bannerIII.jpg" />
     <Content Include="wwwroot\Images\Logo.png" />
     <Content Include="wwwroot\Images\mainBanner.jpg" />
     <Content Include="wwwroot\lib\bootstrap\dist\css\United-bootstrap.min.css" />

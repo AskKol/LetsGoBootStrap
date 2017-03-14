@@ -9,9 +9,7 @@
 /* The body */
 body{
     background-color:#fcfcfc;
-}
-#divBody {
-    min-height: 40rem;
+ 
 }
 
 #divBody {
@@ -20,7 +18,7 @@ body{
 
 #divBodyInner{
 background-color:#ffffff;
-min-height:400px;
+min-height:60rem;
 }
 
 @media(max-width:183px) {
@@ -38,7 +36,7 @@ min-height:400px;
 #btnSearch {
     border-color: transparent;
     background-color: white;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 0.3125rem;
 }
 
     #btnSearch > span {
@@ -51,9 +49,9 @@ min-height:400px;
 
 #txtSearch {
     margin-left: 1rem;
-    min-width: 400px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    min-width: 25rem;
+    border-bottom-left-radius: 0.3125rem;
+    border-top-left-radius: 0.3125rem;
 }
 
 
@@ -61,14 +59,14 @@ min-height:400px;
 @media(max-width:860px) {
     #txtSearch {
         margin-left: 0;
-        min-width: 200px;
+        min-width:  12.5rem;
     }
 }
 
 @media(max-width:768px) {
     #txtSearch {
         margin-left: 0;
-        min-width: 200px;
+        min-width: 12.5rem;
     }
 
     #frmSearch {
@@ -78,7 +76,7 @@ min-height:400px;
 
 /*The main menu*/
 
-#divMenu > div.navbar-header > a {
+#divHeader > div.navbar-header > a  {
     /*padding-top:.4rem;
 padding-right:.3rem;
 padding-bottom:.1rem;
@@ -90,4 +88,12 @@ padding-left:.2rem;*/
     border-left: solid;
     border-left-width: thin;
     border-left-color: crimson;
+}
+
+.carousel-inner > .item > img {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height:  18.75rem;
 }
