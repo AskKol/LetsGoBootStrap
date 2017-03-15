@@ -1,0 +1,20 @@
+﻿@model Contact
+
+<div>
+    <br />
+    @if (Model != null)
+    {
+        <address class="pull-left lead">
+            <p> @Html.DisplayFor(m => m.AddressLine1)</p>
+            @if (!String.IsNullOrEmpty(Model.AddressLine2))
+                {
+                <p> @Html.DisplayFor(m => m.AddressLine2)</p>
+            }
+            <p>@Html.DisplayFor(m => m.PostCode)</p>
+            <p>@Html.DisplayFor(m => m.County)</p>
+            <p>@Html.DisplayFor(m => m.Country)</p>
+            <p><abbr title="Email"><span class="glyphicon glyphicon-envelope"></span></abbr> @Html.DisplayFor(m => m.Email)</p>
+            <p><abbr title="Phone"><span class="glyphicon glyphicon-phone"></span></abbr> @Html.DisplayFor(m => m.PhoneNumber)</p>
+        </address>
+    }
+</div>
