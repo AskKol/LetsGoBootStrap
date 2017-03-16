@@ -9,5 +9,6 @@ namespace LetsGoBootstrap.Models
     public interface IContactRepository
     {
         IEnumerable<Contact> GetContact(int? contactId, string name);
+        Dictionary<int,string> SendMessage(Contact aContact);
     }
 }

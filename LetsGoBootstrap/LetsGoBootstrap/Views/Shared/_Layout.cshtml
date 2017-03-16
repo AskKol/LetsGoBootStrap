@@ -22,7 +22,7 @@
                     <ul class="nav navbar-nav">
                         <li class="nav @ViewBag.HomeTabClass"><a asp-controller="Home" asp-action="Index">Home</a></li>
                         <li class="nav @ViewBag.ProductTabClass"><a asp-controller="Product" asp-action="Index">Products</a></li>
-                        <li class="nav"><a asp-controller="Contact" asp-action="Index">Contact us</a></li>
+                        <li class="nav @ViewBag.ContactTabClass"><a asp-controller="Contact" asp-action="Index">Contact us</a></li>
                     </ul>
                     <form id="frmSearch" class="navbar-form " role="search">
                         <div class="input-group">
@@ -49,14 +49,14 @@
                 <div id="divSideBarAdmin"></div>
                 <div id="divSideBarNormal">
                     <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link @ViewBag.HomeTabClass" asp-controller="Home" asp-action="Index">Home</a>
+                        <li class="nav-item @ViewBag.HomeTabClass">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link @ViewBag.ProductTabClass" asp-controller="Product" asp-action="Index">Products</a>
+                        <li class="nav-item @ViewBag.ProductTabClass">
+                            <a class="nav-link" asp-controller="Product" asp-action="Index">Products</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
+                        <li class="nav-item @ViewBag.ContactTabClass">
+                            <a class="nav-link" asp-controller="Contact" asp-action="Index">Contact us</a>
                         </li>
 
                     </ul>
@@ -124,6 +124,7 @@
         </div>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
 </body>
 </html>

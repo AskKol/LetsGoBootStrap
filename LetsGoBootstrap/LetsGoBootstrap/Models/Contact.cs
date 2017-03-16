@@ -36,9 +36,13 @@ namespace LetsGoBootstrap.Models
         public string AddressLine2 { get; set; }
         public string County { get; set; }
         public string Country { get; set; }
-        [MaxLength(250, 
-        ErrorMessage = "Sorry, but you have exceed the maximum allowed length for this field.")]
-        public string Message { get; set; }
+        public List<Message> Message { get; set; }
+        public int ContactTypeId { get; set; }
+
+        public virtual ContactType ContactType { get; set; }
+        //[MaxLength(250, 
+        //ErrorMessage = "Sorry, but you have exceed the maximum allowed length for this field.")]
+        //public string Message { get; set; }
 
     }
 }

@@ -1,13 +1,13 @@
 ﻿<ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#address">Address</a></li>
-    <li><a data-toggle="tab" href="#contactUs">Contact us</a></li>
+    <li class="@ViewBag.Address"><a data-toggle="tab" href="#address">Address</a></li>
+    <li class="@ViewBag.ContactUs"><a data-toggle="tab" href="#contactUs">Contact us</a></li>
 </ul>
 
 <div class="tab-content">
-    <div id="address" class="tab-pane fade in active">
+    <div id="address" class="tab-pane fade in @ViewBag.Address ">
        @await Component.InvokeAsync("WebsiteContactUsDetail")
     </div>
-    <div id="contactUs" class="tab-pane fade">
+    <div id="contactUs" class="tab-pane fade @ViewBag.ContactUs">
        @await Component.InvokeAsync("VistorContactUs")
     </div>
 </div>

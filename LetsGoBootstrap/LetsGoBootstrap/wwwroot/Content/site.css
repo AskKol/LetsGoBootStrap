@@ -89,7 +89,11 @@ padding-left:.2rem;*/
     border-left-width: thin;
     border-left-color: crimson;
 }
+#divSideBarNormal > ul > li.nav-item.active{
+    background-color:#f8f6f6;
+}
 
+/*Home page carousel*/
 .carousel-inner > .item > img {
     /*position: absolute;*/
     top: 0;

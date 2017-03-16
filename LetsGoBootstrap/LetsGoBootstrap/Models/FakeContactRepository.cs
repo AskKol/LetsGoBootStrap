@@ -27,5 +27,24 @@ namespace LetsGoBootstrap.Models
                 }
             };
         }
+
+        public Dictionary<int, string> SendMessage(Contact aContact)
+        {
+            //Todo try to save it to the db and include it in the visitor section and send a notification to the administrator(s)
+
+            try
+            {
+               
+                return new Dictionary<int, string>(){
+                    { 1,"Message sent" } };
+            }
+            catch (Exception exception)
+            {
+                //Todo write the exception to log 
+                return new Dictionary<int, string>(){
+                    { 0,"Message not sent" } };
+            }
+
+        }
     }
 }

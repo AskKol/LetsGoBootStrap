@@ -25,6 +25,7 @@ namespace LetsGoBootstrap.ViewModels
         [EmailAddress]
         [Required]
         public string Email { get; set; }
+        [Required]
         [MaxLength(250,
        ErrorMessage = "Sorry, but you have exceed the maximum allowed length for this field.")]
         public string Message { get; set; }
